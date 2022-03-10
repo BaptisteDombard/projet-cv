@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+.view__item{
+    display: inline-block;
+    text-decoration: none;
+}
+.view__item+.view__item{
+    margin-left: 2em;
+}
+.view__btn{
+    background-color: transparent;
+    border: none;
+    color: gold;
+}
