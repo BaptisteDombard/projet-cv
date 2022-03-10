@@ -39,74 +39,101 @@
             <h2 class="skills__title" id="skills">Compétences</h2>
             <section class="skills__menu skills-view" aria-labelledby="skills-view">
                 <h3 class="skills-view__title" id="skills-view"><span>Vue</span> Compétences</h3>
-                <button type="button" class="skills-view__btn">
-                    <img src="img/logo-html.svg" alt="logo html">
-                </button>
-                <button type="button" class="skills-view__btn">
-                    <img src="img/logo-css.svg" alt="logo html">
-                </button>
-                <button type="button" class="skills-view__btn">
-                    <img src="img/logo-js.svg" alt="logo html">
-                </button>
-                <button type="button" class="skills-view__btn">
-                    <img src="img/logo-php.svg" alt="logo html">
-                </button>
-                <button type="button" class="skills-view__btn">
-                    <img src="img/logo-wordpress.svg" alt="logo html">
-                </button>
-                <ol class="skills-view__list skills-list">
-                    <li class="skills-list__item skills-item">
-                        <div>
-                            <h4 class="skills-item__title">HTML</h4>
-                            <p class="skills-item__exerpt">Le HyperText Markup Language, généralement abrégé HTML ou,
-                                dans sa dernière version, HTML5, est le langage de balisage conçu pour
-                                représenter les pages web.</p>
-                            <video></video>
-                        </div>
+                <ul class="skills-view__list logo-list">
+                    <li class="logo-list__item logo-item">
+                        <button type="button" class="logo-item__btn">
+                            <img src="img/logo-html.svg" alt="logo html">
+                        </button>
                     </li>
-                    <li class="skills-list__item skills-item">
-                        <div>
-                            <h4 class="skills-item__title">CSS</h4>
-                            <p class="skills-item__exerpt">Les feuilles de style en cascade, généralement appelées CSS
-                                de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation
-                                des documents HTML et XML.</p>
-                            <video></video>
-                        </div>
+                    <li class="logo-list__item logo-item">
+                        <button type="button" class="logo-item__btn">
+                            <img src="img/logo-css.svg" alt="logo css">
+                        </button>
                     </li>
-                    <li class="skills-list__item skills-item">
-                        <div>
-                            <h4 class="skills-item__title">JavaScript</h4>
-                            <p class="skills-item__exerpt">JavaScript est un langage de programmation de scripts principalement
-                                employé dans les pages web interactives et à ce titre est une partie essentielle des applications web.</p>
-                            <video></video>
-                        </div>
+                    <li class="logo-list__item logo-item">
+                        <button type="button" class="logo-item__btn">
+                            <img src="img/logo-js.svg" alt="logo js">
+                        </button>
                     </li>
-                    <li class="skills-list__item skills-item">
-                        <div>
-                            <h4 class="skills-item__title">PHP</h4>
-                            <p class="skills-item__exerpt">Hypertext Preprocessor, plus connu sous son sigle PHP, est un langage de programmation
-                                libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également
-                                fonctionner comme n'importe quel langage interprété de façon locale.</p>
-                            <video></video>
-                        </div>
+                    <li class="logo-list__item logo-item">
+                        <button type="button" class="logo-item__btn">
+                            <img src="img/logo-php.svg" alt="logo php">
+                        </button>
                     </li>
-                    <li class="skills-list__item skills-item">
-                        <div>
-                            <h4 class="skills-item__title">Wordpress</h4>
-                            <p class="skills-item__exerpt">WordPress est un système de gestion de contenu gratuit, libre et open-source.
-                                Ce logiciel écrit en PHP repose sur une base de données MySQL et est distribué par la fondation WordPress.org.</p>
-                            <video></video>
-                        </div>
+                    <li class="logo-list__item logo-item">
+                        <button type="button" class="logo-item__btn">
+                            <img src="img/logo-wordpress.svg" alt="logo wordpress">
+                        </button>
                     </li>
-                </ol>
+                </ul>
+                <ul class="skills-view__list video-list">
+                    <li class="video-list__item video-item"><video></video></li>
+                    <li class="video-list__item video-item"><video></video></li>
+                    <li class="video-list__item video-item"><video></video></li>
+                    <li class="video-list__item video-item"><video></video></li>
+                    <li class="video-list__item video-item"><video></video></li>
+                </ul>
+                <dl class="skills-view__list definition-list">
+                    <dt class="definition-list__item definition-item">HTML</dt>
+                    <dd class="definition-list__item definition-item">Le HyperText Markup Language, généralement abrégé HTML ou,
+                        dans sa dernière version, HTML5, est le langage de balisage conçu pour
+                        représenter les pages web.</dd>
+                    <dt class="definition-list__item definition-item">CSS</dt>
+                    <dd class="definition-list__item definition-item">Les feuilles de style en cascade, généralement appelées CSS
+                        de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation
+                        des documents HTML et XML.</dd>
+                    <dt class="definition-list__item definition-item">Javascript</dt>
+                    <dd class="definition-list__item definition-item">JavaScript est un langage de programmation de scripts principalement
+                        employé dans les pages web interactives et à ce titre est une partie essentielle des applications web.</dd>
+                    <dt class="definition-list__item definition-item">PHP</dt>
+                    <dd class="definition-list__item definition-item">Hypertext Preprocessor, plus connu sous son sigle PHP, est un langage de programmation
+                        libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également
+                        fonctionner comme n'importe quel langage interprété de façon locale.</dd>
+                    <dt class="definition-list__item definition-item">Wordpress</dt>
+                    <dd class="definition-list__item definition-item">WordPress est un système de gestion de contenu gratuit, libre et open-source.
+                        Ce logiciel écrit en PHP repose sur une base de données MySQL et est distribué par la fondation WordPress.org.</dd>
+                </dl>
             </section>
         </section>
         <section class="main__container experience" aria-labelledby="experience-title">
             <h2 class="experience__title" id="experience-title">Expérience</h2>
             <section class="experience__view experience-view" aria-labelledby="experience-view-title">
-                <h3 class="experience-view__title" id="experience-view-title"> Expérience passée</h3>
+                <h3 class="experience-view__title" id="experience-view-title">Expérience passée</h3>
+                <ul class="experience-view__list experience-list">
+                    <li class="experience-list__item experience-item">
+                        <img class="experience-item__image" src="img/logo-hech.png" alt="logo de la HECH">
+                    </li>
+                    <li class="experience-list__item experience-item">
+                        <p class="experience-item__exerpt">Bachelier en instituteur primaire</p>
+                    </li>
+                    <li class="experience-list__item experience-item">
+                        <img class="experience-item__image" src="img/flag-united-kingdom.png" alt="Drapeau de l'Angleterre">
+                    </li>
+                    <li class="experience-list__item experience-item">
+                        <p class="experience-item__exerpt">Voyage à Londre</p>
+                    </li>
+                </ul>
             </section>
         </section>
     </main>
+    <footer class="footer">
+        <ul class="footer__list link-list">
+            <li class="link-list__item link-item">
+                <a class="link-item__link" href="#">&Agrave; propos de moi</a>
+            </li>
+            <li class="link-list__item link-item">
+                <a class="link-item__link" href="#">Aidez moi à m'améliorer</a>
+            </li>
+            <li class="link-list__item link-item">
+                <a class="link-item__link" href="#">&Eacute;tat du service</a>
+            </li>
+            <li class="link-list__item link-item">
+                <a class="link-item__link" href="#">Support</a>
+            </li>
+            <li class="link-list__item link-item">
+                <a class="link-item__link" href="#">Télécharger mon cv sur mobile</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>

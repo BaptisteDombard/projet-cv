@@ -14,9 +14,6 @@ body{
     border: none;
     color: gold;
 }
-.skills-view__btn img{
-    max-height: 10em;
-}
 .experience{
     background-color: white;
 }
@@ -24,5 +21,9 @@ body{
     color: black;
 }
 .experience__view{
+    display: inline-block;
     background-color: black;
+}
+li{
+    list-style: none;
 }
