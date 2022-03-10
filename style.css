@@ -14,3 +14,15 @@ body{
     border: none;
     color: gold;
 }
+.skills-view__btn img{
+    max-height: 10em;
+}
+.experience{
+    background-color: white;
+}
+.experience__title{
+    color: black;
+}
+.experience__view{
+    background-color: black;
+}
